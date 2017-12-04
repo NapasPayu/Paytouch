@@ -12,3 +12,5 @@ Time spent
 Difficulties
 - UI customisation such as the order drop-down menu, search screen and actor detail popup.
 
+Things that can be improved
+- Use database to store and synchronise the fetched data from the API. It can reduce loading time and also help on searching and filtering easily.
