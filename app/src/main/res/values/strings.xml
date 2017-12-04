@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Paytouch</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="clear">Clear</string>
+    <string name="filmography">Filmography</string>
+    <string name="vote_count">%1$d votes</string>
+    <string name="order_by_name">Order by name</string>
+    <string name="order_by_popularity">Order by popularity</string>
+    <string name="search">Search</string>
+    <string name="name">name</string>
+    <string name="write_name">write name</string>
+    <string name="location">location</string>
+    <string name="is_top">is top?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="popularity">popularity</string>
+    <string name="select_location">select location</string>
+    <string-array name="locations">
+        <item>@string/select_location</item>
+        <item>Barcelona</item>
+        <item>Berlin</item>
+        <item>Boston</item>
+        <item>Chicago</item>
+        <item>Dallas</item>
+        <item>Dublin</item>
+        <item>Helsinki</item>
+        <item>London</item>
+        <item>New York</item>
+        <item>Paris</item>
+        <item>Rome</item>
+        <item>San Francisco</item>
+        <item>Sydney</item>
+        <item>Vancouver</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="@dimen/img_avatar"
+        android:layout_height="@dimen/img_avatar"
+        android:layout_margin="@dimen/spacing_normal"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="@dimen/spacing_tiny"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_huge"
+        android:layout_toRightOf="@+id/iv_profile"
+        android:textSize="@dimen/font_larger"
+        android:textStyle="bold"
+        tools:text="Steven Seagal" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_toRightOf="@+id/iv_profile"
+        android:drawableLeft="@drawable/pin_black"
+        android:drawablePadding="@dimen/spacing_tiny"
+        android:drawableTint="@color/colorPrimary"
+        android:textSize="@dimen/font_normal"
+        android:textStyle="italic"
+        tools:text="New York" />
+
+    <TextView
+        android:id="@+id/tv_popularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_gray_light_round"
+        android:paddingBottom="@dimen/spacing_large"
+        android:paddingLeft="@dimen/spacing_normal"
+        android:paddingRight="@dimen/spacing_normal"
+        android:paddingTop="@dimen/spacing_large"
+        android:textSize="@dimen/font_larger"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="3.80" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_profile"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginRight="@dimen/spacing_normal"
+        android:layout_toLeftOf="@+id/tv_popularity"
+        android:textSize="@dimen/font_normal"
+        tools:text="Sample description" />
+
+</RelativeLayout>
